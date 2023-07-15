@@ -1,0 +1,367 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    font-family: 'Belanosima', sans-serif;
+    list-style-type: none;
+}
+:root {
+    --color-fuente: #181823;
+    --color-fondo: #EFF5F5;
+    --color-textohyf: #FC7300;
+    --color-hyf: #1F8A70;
+    --color-titulos: #00425A;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif; 
+}
+h2 {
+    font-family: 'Poppins', sans-serif; 
+    color: var(--color-titulos);
+    padding-bottom: 1rem;
+}
+h3 {
+    font-family: 'Poppins', sans-serif; 
+}
+p {
+    text-align: center;
+}
+
+.headerinferior {
+    height: 25rem;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+    width:100%;
+    display: inline-block;
+    color: var(--color-textohyf);
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: var(--color-fuente);
+}
+.barra {
+    padding: 1rem 1rem;
+    background-color: var(--color-fuente);
+}
+
+.barra ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra a {
+    color: var(--color-textohyf);
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.propuesta {
+    padding-bottom: 1rem;
+}
+
+#quienes {
+    padding-top: 1rem;
+    text-align:center;
+}
+
+.quienessomos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+#elegirnos {
+    padding-bottom: 1rem;
+    text-align:center;
+}
+
+.porqueelegirnos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.imgmain {
+    padding-bottom: 1rem;
+    padding-top:1rem;
+}
+.ultimasnoticias {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.noticia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+}
+#propuesta {
+    padding-bottom: 1rem;
+    text-align:center;
+}
+
+.propuestaed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.propuesta1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    padding: 1.5rem;
+    align-items: center;
+}
+.propuesta2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    padding: 1.5rem;
+    align-items: center;
+}
+.propuesta3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    padding: 1.5rem;
+    align-items: center;
+}
+.propuesta4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column ;
+    padding: 1.5rem;
+    align-content: center;
+}
+.propuestas1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    justify-content: center;
+}
+.propuestas2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row ;
+    justify-content: center;
+}
+#noticias {
+    padding-top:1rem;
+    padding-left: 1rem;
+    text-align:center;
+    }   
+footer {
+    background-color: var(--color-fuente);
+    color: var(--color-hyf);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.social {
+    padding: 1rem 1rem;
+    align-self: center;
+}
+.ubicacion {
+    padding: 1rem 1rem;
+    align-self: center;
+}
+.ubicacion h3 {
+    text-align:center;
+}
+.contacto {
+    padding: 1rem 1rem;
+    align-self: center;
+    text-align: center;
+}
+.contacto h3 {
+    text-align:center;  
+}
+
+@media (min-width: 321px) {
+    .barra a{
+        font-size: 0.8rem;
+        justify-content: space-around;
+    }
+    .titulo {
+        font-size: 2.2rem;
+    }
+    #quienes {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    .quienessomos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .quienessomos p{
+        text-align: right;
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    #elegirnos {
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    .porqueelegirnos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .porqueelegirnos p{
+        text-align: left;
+        font-size: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    #propuesta {
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 1.4rem;
+    }
+    .propuestaed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+#noticias {
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.ultimasnoticias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content:space-between;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+    padding-left:0.5rem;
+    padding-right:0.5rem;
+}
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.9rem;
+}
+}
+
+@media (min-width: 769px) {
+    .barra a{
+        font-size: 1.1rem;
+        justify-content: space-around;
+    }
+    .titulo {
+        font-size: 3rem;
+    }
+    #quienes {
+        padding-top: 1rem;
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    .quienessomos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content:space-around;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .quienessomos p{
+        text-align:justify;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    #elegirnos {
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    .porqueelegirnos {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content:space-around;
+        padding-bottom: 2rem;
+        padding-left: 1rem;
+    }
+    .porqueelegirnos p{
+        text-align:justify;
+        font-size: 1.5rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #propuesta {
+        padding-left: 1rem;
+        text-align: left;
+        font-size: 2.3rem;
+    }
+    .propuestaed{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content:center;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+}
+
+#noticias {
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 2.3rem;
+}
+
+.ultimasnoticias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content:space-between;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    padding-left: 7rem;
+    padding-right:7rem;
+}
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.1rem;
+}
+}
+
+
+
+
+
