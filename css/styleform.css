@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration:none;
+    font-family: 'Belanosima', sans-serif;
+    list-style-type: none;
+}
+:root {
+    --color-fuente: #181823;
+    --color-fondo: #EFF5F5;
+    --color-textohyf: #FC7300;
+    --color-hyf: #1F8A70;
+    --color-titulos: #00425A;
+}
+.headerinferior {
+    height: 25rem;
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.titulo {
+    width:100%;
+    display: inline-block;
+    color: var(--color-textohyf);
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background-color: var(--color-fuente);
+}
+.barra {
+    padding: 1rem 1rem;
+    background-color: var(--color-fuente);
+    position: fixed;
+    width:100%;
+}
+
+.barra ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra a {
+    color: var(--color-textohyf);
+    font-size: 0.8rem;
+    text-align: center;
+}
