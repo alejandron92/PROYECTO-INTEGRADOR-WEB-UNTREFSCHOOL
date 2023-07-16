@@ -58,7 +58,7 @@ p {
 
 .barra a {
     color: var(--color-textohyf);
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     text-align: center;
 }
 
@@ -176,6 +176,7 @@ footer {
 .social {
     padding: 1rem 1rem;
     align-self: center;
+    text-align:center;
 }
 .ubicacion {
     padding: 1rem 1rem;
