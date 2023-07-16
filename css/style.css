@@ -49,6 +49,8 @@ p {
 .barra {
     padding: 1rem 1rem;
     background-color: var(--color-fuente);
+    position: fixed;
+    width:100%;
 }
 
 .barra ul {
@@ -218,7 +220,7 @@ footer {
     }
     .quienessomos p{
         text-align:justify;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
@@ -237,7 +239,7 @@ footer {
     }
     .porqueelegirnos p{
         text-align:justify;
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         padding-left: 2rem;
         padding-right: 2rem;
     }
