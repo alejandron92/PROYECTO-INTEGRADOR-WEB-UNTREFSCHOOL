@@ -272,15 +272,12 @@ footer {
     padding-right:6rem;
 }
 footer {
+    display:flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 1.1rem;
 }
 }
-@media (min-width: 769px) {
-
-}
-
 
 
 
