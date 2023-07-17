@@ -36,15 +36,15 @@
 <div class="formdatos">
 <form action="https://formsubmit.co/alejandroneubert@gmail.com" method="POST">
 <label for="nombre">Nombre y apellido:</label>
-<input type="text" name="nombre" id="nombre" required>
-<label for="email">Correo electronico:</label>
-<input type="email" name="email" id="email" required>
+<input maxlength="40" type="text" name="nombre" id="nombre" required>
+<label for="email">Correo electrónico:</label>
+<input maxlength="40" type="email" name="email" id="email" required>
 <label for="tel">N° de teléfono:</label>
-<input type="tel" name="tel" id="tel" required>
+<input maxlength="15" type="tel" name="tel" id="tel" required>
 <label for="text">Ciudad:</label>
-<input rem type="text" name="ciudad" id="ciudad" required></div>
+<input maxlength="20" type="text" name="ciudad" id="ciudad" required></div>
 <div class="formconsulta"><label for="consulta">Dejanos tu mensaje/consulta:</label>
-<textarea name="consulta" id="consulta" rows="12" cols="40"></textarea>
+<textarea maxlength="800" name="consulta" id="consulta" rows="12" cols="40"></textarea>
 <br>
 <button type="submit" value="submit">Enviar</button></form></div></div>
 </main>
