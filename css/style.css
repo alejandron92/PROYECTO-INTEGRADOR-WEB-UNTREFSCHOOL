@@ -49,7 +49,6 @@ p {
 .barra {
     padding: 0.2rem;
     background-color: var(--color-fuente);
-    position: fixed;
     width:100%;
 }
 
